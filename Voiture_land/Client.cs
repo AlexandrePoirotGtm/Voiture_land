@@ -9,5 +9,6 @@ namespace Voiture_land
     class Client : Personne
     {
         public int Numéro { get; set; }
+        public List<ContratLocation> LesContrats { get; set; }
     }
 }

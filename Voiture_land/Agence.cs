@@ -10,5 +10,8 @@ namespace Voiture_land
     {
         public string Adresse { get; set; }
         public string Ville { get; set; }
+
+        public List<Véhicule> ListVéhicules { get; set; }
+        public List<Employé> ListEmployés { get; set; }
     }
 }

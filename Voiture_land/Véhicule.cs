@@ -11,6 +11,9 @@ namespace Voiture_land
         public string Marque { get; set; }
         public string Modèle { get; set; }
 
+        public ContratLocation LeContrat { get; set; }
+
+
         public double GetPrix_Jour()
         {
             return 0;

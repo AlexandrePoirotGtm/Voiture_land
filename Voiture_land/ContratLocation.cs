@@ -12,6 +12,8 @@ namespace Voiture_land
         public DateTime DateFin { get; set; }
         public int KilométrageMaximum { get; set; }
 
+        public List<Véhicule> ListVéhicule { get; set; }
+
         public double CalculerMontantLocation(DateTime dateD,DateTime dateF)
         {
             return 0;
